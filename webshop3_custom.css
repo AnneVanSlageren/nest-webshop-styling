@@ -11011,3 +11011,12 @@ ul.list-at-shows > li:hover .at-property-value.at-show-displaydate {
   color: #b2ffaf !important;
   font-weight: bold !important;
 }
+.at-show-property-label {
+  font-weight: bold !important;
+  color: white !important;
+}
+.at-show-property-label {
+  color: white !important;
+  font-weight: bold !important;
+  display: inline-block;
+}
