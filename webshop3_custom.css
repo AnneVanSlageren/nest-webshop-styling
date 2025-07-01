@@ -1,4 +1,9 @@
-﻿/* Base */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body, button, input, select, textarea, a, h1, h2, h3, h4, h5, h6 {
+  font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Base */
 .datepicker {
   border-radius: 4px;
   direction: ltr;
@@ -10887,4 +10892,33 @@ section#login-form fieldset legend {
 }
 .at-controller-Account.at-action-Login section.main-content h2 {
   display: none;
+}
+.navbar-default {
+    background-color: #d8652b;
+    border-color: #d8652b;
+}
+.btn,
+.btn-primary,
+.btn-default,
+.btn-lg {
+  background-color: #d8652b;
+  border-color: #d8652b;
+  color: white;
+  font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: box-shadow 0.2s ease;
+}
+body {
+    font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333333;
+    background-color: #d8652b;
+}
+h1, h2, h3 {
+  color: #d8652b;
+}
+footer .copyright {
+    font-size: smaller;
+    color: #ffffff;
+    padding: 15px;
 }
