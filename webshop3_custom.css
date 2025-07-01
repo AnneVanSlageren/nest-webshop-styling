@@ -10893,32 +10893,121 @@ section#login-form fieldset legend {
 .at-controller-Account.at-action-Login section.main-content h2 {
   display: none;
 }
+
 .navbar-default {
     background-color: #d8652b;
     border-color: #d8652b;
 }
+/* ALGEMEEN: alles wit */
+body, body * {
+  color: white !important;
+  background-color: #d8652b !important;
+  font-family: "Mulish", sans-serif;
+}
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+  background-color: #d8652b !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+.dropdown-menu > li > a {
+  color: white !important;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li.active > a {
+  background-color: #c0521d !important;
+  color: white !important;
+}
+
+/* EVENT VAKKEN */
+ul.list-at-shows > li {
+  background-color: #d8652b !important;
+  border: 2px solid white !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+ul.list-at-shows > li * {
+  color: white !important;
+}
+ul.list-at-shows > li:hover {
+  background-color: #d8652b !important;
+  color: white !important;
+  border: 2px solid white !important;
+  box-shadow: none !important;
+}
+ul.list-at-shows > li:hover * {
+  color: white !important;
+}
+
+/* DETAILS-KNOP */
+ul.list-at-shows .btn,
+ul.list-at-shows .btn-primary {
+  background-color: #ee7c43 !important;
+  color: white !important;
+  border: 2px solid white !important;
+  border-radius: inherit !important;
+  box-shadow: none !important;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+ul.list-at-shows .btn:hover,
+ul.list-at-shows .btn-primary:hover {
+  border: none !important;
+  background-color: transparent !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea,
+select {
+  background-color: transparent !important;
+  color: white !important;
+  border: 2px solid white !important;
+  border-radius: inherit !important;
+  box-shadow: none !important;
+}
+input::placeholder,
+textarea::placeholder {
+  color: white !important;
+  opacity: 0.6;
+}
+/* Algemene knoppenstijl */
 .btn,
 .btn-primary,
-.btn-default,
-.btn-lg {
-  background-color: #d8652b;
-  border-color: #d8652b;
-  color: white;
-  font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  transition: box-shadow 0.2s ease;
+.btn-default {
+  background-color: #ee7c43 !important;
+  color: white !important;
+  border: 2px solid white !important;
+  border-radius: inherit;
+  box-shadow: none !important;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
 }
-body {
-    font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.4;
-    color: #333333;
-    background-color: #d8652b;
+
+/* Hover: rand weg, tekst wit */
+.btn:hover,
+.btn-primary:hover,
+.btn-default:hover {
+  background-color: transparent !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none !important;
 }
-h1, h2, h3 {
-  color: #d8652b;
+.at-property-label.at-show-displaydate {
+  color: white !important;
 }
-footer .copyright {
-    font-size: smaller;
-    color: #ffffff;
-    padding: 15px;
+
+.at-property-value.at-show-displaydate {
+  color: #b2ffaf !important; /* zachtgroen */
+  font-style: normal;
+  font-weight: bold;
+}
+ul.list-at-shows > li:hover .at-property-value.at-show-displaydate {
+  color: #b2ffaf !important;
+  font-weight: bold !important;
 }
